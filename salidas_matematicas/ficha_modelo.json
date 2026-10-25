@@ -1,0 +1,79 @@
+{
+  "nombre": "Clasificación de bajo puntaje en matemáticas",
+  "version": "matematicas_v2",
+  "datos_sinteticos": true,
+  "dataset": "neuralsorcerer/student-performance/versions/1",
+  "corte_provisional": 60.0,
+  "features": [
+    "Grade",
+    "AttendanceRate",
+    "StudyHours",
+    "InternetAccess",
+    "Extracurricular",
+    "PartTimeJob",
+    "ParentSupport",
+    "FreeTime",
+    "GoOut"
+  ],
+  "atributos_solo_auditoria": [
+    "Gender",
+    "Race",
+    "SES_Quartile"
+  ],
+  "modelo": "HistGradientBoosting",
+  "umbral_validacion": 0.14,
+  "muestreo": {
+    "train": 300000,
+    "validation": 150000,
+    "test": 150000
+  },
+  "semilla": 42,
+  "calidad_archivos": {
+    "train": {
+      "filas_originales": 8000774,
+      "filas_muestra": 300000,
+      "nulos_originales": 0,
+      "hashes_repetidos": 0,
+      "sha256": "5eb46ab71ca8bf9d80962a6ffc9fe20593fd301a6eaef8b4cf9aa64663648fb3"
+    },
+    "validation": {
+      "filas_originales": 999229,
+      "filas_muestra": 150000,
+      "nulos_originales": 0,
+      "hashes_repetidos": 0,
+      "sha256": "afee5b88a598ad7e3fc22e7023d2c0e9ace252c25ffd1fcca854293afab8e647"
+    },
+    "test": {
+      "filas_originales": 999997,
+      "filas_muestra": 150000,
+      "nulos_originales": 0,
+      "hashes_repetidos": 0,
+      "sha256": "076e1f68d4a39e95a81ca43f05255dda3e73fc791d2af6e169f32825aa08fe95"
+    }
+  },
+  "versiones_software": {
+    "python": "3.12.10",
+    "numpy": "2.1.0",
+    "pandas": "2.3.3",
+    "sklearn": "1.9.0"
+  },
+  "metricas_test": {
+    "Umbral": 0.14,
+    "Accuracy": 0.8954533333333333,
+    "Precision": 0.36512159828222,
+    "Recall": 0.789861658083409,
+    "F1": 0.4993934750686331,
+    "F2": 0.6407798803964938,
+    "ROC_AUC": 0.9392880597822924,
+    "AP": 0.5711634733380391
+  },
+  "limitaciones": [
+    "Corte no aprobado por UTP",
+    "Datos sin secuencia temporal ni ID de estudiante",
+    "Test explorado previamente",
+    "Métricas calculadas en muestras",
+    "Probabilidades sin calibración adicional",
+    "No acredita desempeño ni equidad en un colegio real",
+    "Seguridad y programación de producción pendientes"
+  ]
+}

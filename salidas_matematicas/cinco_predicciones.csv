@@ -1,0 +1,6 @@
+ID_Caso,Probabilidad_bajo_rendimiento,Alerta,Nivel
+DEMO_1,0.9509305818496507,1,Priorizar revisión
+DEMO_2,0.40517584734497525,1,Priorizar revisión
+DEMO_3,0.0029338533612010167,0,Seguimiento habitual
+DEMO_4,9.97855786898817e-06,0,Seguimiento habitual
+DEMO_5,0.8552099891328658,1,Priorizar revisión

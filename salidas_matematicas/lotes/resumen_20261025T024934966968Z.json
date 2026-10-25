@@ -1,0 +1,13 @@
+{
+  "Fecha_UTC": "2026-10-25T02:49:34.966968+00:00",
+  "Version": "matematicas_v2",
+  "Modelo": "HistGradientBoosting",
+  "Filas": 5,
+  "Alertas": 3,
+  "Tasa_alertas": 0.6,
+  "Valores_imputados": 0,
+  "SHA256_entrada": "8a7b40e1bf0ccefbb6757990a8eac3cb1597ffd120e423eac9314b4cdfe71af5",
+  "Umbral": 0.14,
+  "Duracion_segundos": 0.129,
+  "Archivo": "predicciones_powerbi_20261025T024934966968Z.csv"
+}

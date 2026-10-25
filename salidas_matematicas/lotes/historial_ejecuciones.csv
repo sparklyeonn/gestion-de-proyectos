@@ -1,0 +1,2 @@
+Fecha_UTC,Version,Modelo,Filas,Alertas,Tasa_alertas,Valores_imputados,SHA256_entrada,Umbral,Duracion_segundos,Archivo
+2026-10-25T02:49:34.966968+00:00,matematicas_v2,HistGradientBoosting,5,3,0.6,0,8a7b40e1bf0ccefbb6757990a8eac3cb1597ffd120e423eac9314b4cdfe71af5,0.14,0.129,predicciones_powerbi_20261025T024934966968Z.csv
