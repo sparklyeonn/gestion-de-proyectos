@@ -1,0 +1,4 @@
+,filas_originales,filas_muestra,nulos_originales,hashes_repetidos,sha256
+train,8000774,300000,0,0,5eb46ab71ca8bf9d80962a6ffc9fe20593fd301a6eaef8b4cf9aa64663648fb3
+validation,999229,150000,0,0,afee5b88a598ad7e3fc22e7023d2c0e9ace252c25ffd1fcca854293afab8e647
+test,999997,150000,0,0,076e1f68d4a39e95a81ca43f05255dda3e73fc791d2af6e169f32825aa08fe95
