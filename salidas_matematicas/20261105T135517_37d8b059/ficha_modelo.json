@@ -1,6 +1,6 @@
 {
   "nombre": "Clasificación de bajo puntaje en matemáticas",
-  "version": "matematicas_v3_20261105T133216_3711f657",
+  "version": "matematicas_v3_20261105T135517_37d8b059",
   "datos_sinteticos": true,
   "dataset": "neuralsorcerer/student-performance/versions/1",
   "corte_provisional": 60.0,

@@ -1,4 +1,4 @@
-## Resultados de la ejecución 20261105T133216_3711f657
+## Resultados de la ejecución 20261105T135517_37d8b059
 
 Modelo seleccionado por F2 en validación: **HistGradientBoosting**, umbral **0.14**. F2 validación: **0.647356**.
 

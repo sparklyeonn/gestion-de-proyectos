@@ -1,0 +1,6 @@
+﻿ID_Caso,Grade,Probabilidad_bajo_rendimiento,Alerta,Nivel,Fecha_UTC,ID_Lote,Version_modelo,Modelo,Umbral,Corte_Math,Origen
+DEMO_1,10,0.9509305818496507,1,Priorizar revisión,2026-11-05T14:05:26.949721+00:00,20261105T140526_012b7afb,matematicas_v3_20261105T135517_37d8b059,HistGradientBoosting,0.14,60.0,demostracion_sintetica
+DEMO_2,11,0.40517584734497525,1,Priorizar revisión,2026-11-05T14:05:26.949721+00:00,20261105T140526_012b7afb,matematicas_v3_20261105T135517_37d8b059,HistGradientBoosting,0.14,60.0,demostracion_sintetica
+DEMO_3,12,0.0029338533612010167,0,Seguimiento habitual,2026-11-05T14:05:26.949721+00:00,20261105T140526_012b7afb,matematicas_v3_20261105T135517_37d8b059,HistGradientBoosting,0.14,60.0,demostracion_sintetica
+DEMO_4,10,9.97855786898817e-06,0,Seguimiento habitual,2026-11-05T14:05:26.949721+00:00,20261105T140526_012b7afb,matematicas_v3_20261105T135517_37d8b059,HistGradientBoosting,0.14,60.0,demostracion_sintetica
+DEMO_5,9,0.8552099891328658,1,Priorizar revisión,2026-11-05T14:05:26.949721+00:00,20261105T140526_012b7afb,matematicas_v3_20261105T135517_37d8b059,HistGradientBoosting,0.14,60.0,demostracion_sintetica

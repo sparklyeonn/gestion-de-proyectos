@@ -1,3 +1,0 @@
-ID_Lote,Fecha_UTC,Modelo,Version_modelo,Umbral,Filas,Alertas,Tasa_alertas,Valores_imputados,Origen,SHA256_entrada,Archivo
-20261105T134211_9a640b54,2026-11-05T13:42:11.059688+00:00,HistGradientBoosting,matematicas_v3_20261105T133216_3711f657,0.14,5,3,0.6,0,demostracion_sintetica,8a7b40e1bf0ccefbb6757990a8eac3cb1597ffd120e423eac9314b4cdfe71af5,predicciones_20261105T134211_9a640b54.csv
-20261105T134215_beaf48a0,2026-11-05T13:42:15.371806+00:00,HistGradientBoosting,matematicas_v3_20261105T133216_3711f657,0.14,1000,153,0.153,0,demo_submuestra_test_sintetico,c48105eeaaf8d762e7fff01d6a3498c1dddb4210db4a53c474a0b12bf4eb1535,predicciones_20261105T134215_beaf48a0.csv
