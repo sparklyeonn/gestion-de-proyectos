@@ -93,6 +93,29 @@ def administrar(st, db):
             st.success("Lote guardado. Abre Mis cursos para revisar los resultados.")
 
 
+def mostrar_resumen(st, vista, curso, alertas):
+    if curso == "Todos mis cursos":
+        st.subheader("Estudiantes con alerta por curso")
+        resumen = vista.groupby("Curso docente")["Alerta"].agg(
+            con_alerta="sum", evaluados="size", proporcion="mean"
+        ).sort_values("proporcion", ascending=False, kind="stable")
+        for nombre, fila in resumen.iterrows():
+            porcentaje = f"{fila.proporcion:.1%}".replace(".", ",")
+            etiqueta = (f"{nombre} · {int(fila.con_alerta)} de {int(fila.evaluados)} "
+                        f"estudiantes con alerta ({porcentaje})")
+            st.progress(float(fila.proporcion), text=etiqueta)
+        return
+
+    st.subheader("Avance de revisión del curso")
+    total = len(alertas)
+    if total == 0:
+        st.caption("Este curso no tiene alertas que revisar en el lote actual.")
+        return
+    revisadas = int(alertas["Estado"].eq("Revisado").sum())
+    porcentaje = f"{revisadas / total:.1%}".replace(".", ",")
+    st.progress(revisadas / total, text=f"{revisadas} de {total} alertas revisadas ({porcentaje})")
+
+
 def mostrar_cursos(st, db, contenido, perfil):
     datos = leer_lote(BytesIO(contenido))
     lote = hashlib.sha256(contenido).hexdigest()
@@ -118,6 +141,7 @@ def mostrar_cursos(st, db, contenido, perfil):
     a.metric("Estudiantes evaluados", len(vista))
     b.metric("Con alerta", len(alertas), help=f"{100*len(alertas)/len(vista):.1f}% del grupo")
     c.metric("Pendientes de revisión", int(alertas.Estado.eq("Pendiente").sum()))
+    mostrar_resumen(st, vista, curso, alertas)
     st.subheader("Estudiantes para revisar")
     st.caption("Revisa primero los casos con mayor probabilidad estimada de bajo puntaje.")
     filtro = st.radio("Estado de revisión", ["Pendiente", "Revisado", "Todos"], horizontal=True)
