@@ -1,0 +1,14 @@
+{
+  "ID_Lote": "20261111T014234_c0c82c99",
+  "Fecha_UTC": "2026-11-11T01:42:34.024550+00:00",
+  "Modelo": "HistGradientBoosting",
+  "Version_modelo": "matematicas_v3_20261111T013930_7f71df6b",
+  "Umbral": 0.14,
+  "Filas": 5,
+  "Alertas": 3,
+  "Tasa_alertas": 0.6,
+  "Valores_imputados": 0,
+  "Origen": "demostracion_sintetica",
+  "SHA256_entrada": "8a7b40e1bf0ccefbb6757990a8eac3cb1597ffd120e423eac9314b4cdfe71af5",
+  "Archivo": "predicciones_20261111T014234_c0c82c99.csv"
+}

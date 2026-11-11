@@ -1,0 +1,82 @@
+Modelo,Umbral,F2_validacion
+Referencia mayoritaria,0.5,0.0
+Regresión logística,0.02,0.5192693632685477
+Regresión logística,0.04,0.5850795572030159
+Regresión logística,0.06,0.6181194730193106
+Regresión logística,0.08,0.6371535268474848
+Regresión logística,0.1,0.6458643669149353
+Regresión logística,0.12,0.6472677282621148
+Regresión logística,0.14,0.6461499278376772
+Regresión logística,0.16,0.6408594995009019
+Regresión logística,0.18,0.6325961884214312
+Regresión logística,0.2,0.6236424548098516
+Regresión logística,0.22,0.6131030598836118
+Regresión logística,0.24,0.5992806718830709
+Regresión logística,0.26,0.5859154380976493
+Regresión logística,0.28,0.5712194060267901
+Regresión logística,0.3,0.56015889894268
+Regresión logística,0.32,0.5450569568755086
+Regresión logística,0.34,0.5321555642391461
+Regresión logística,0.36,0.5147762747138398
+Regresión logística,0.38,0.4998317772731096
+Regresión logística,0.4,0.48389151995242846
+Regresión logística,0.42,0.46842150426910373
+Regresión logística,0.44,0.4515325463013105
+Regresión logística,0.46,0.4345830145371079
+Regresión logística,0.48,0.4184118866011199
+Regresión logística,0.5,0.4006314057671358
+Regresión logística,0.52,0.38357238906320035
+Regresión logística,0.54,0.367857868478678
+Regresión logística,0.56,0.3510268131268336
+Regresión logística,0.58,0.3359267734553776
+Regresión logística,0.6,0.3204759384133852
+Regresión logística,0.62,0.3063705624898687
+Regresión logística,0.64,0.2906313313616357
+Regresión logística,0.66,0.2763077787664497
+Regresión logística,0.68,0.2603197777097511
+Regresión logística,0.7,0.24449704142011836
+Regresión logística,0.72,0.22666159008162196
+Regresión logística,0.74,0.21004784688995215
+Regresión logística,0.76,0.19157226351107584
+Regresión logística,0.78,0.1762545603904419
+Regresión logística,0.8,0.15983009708737864
+HistGradientBoosting,0.02,0.5277489201159167
+HistGradientBoosting,0.04,0.5816952547890322
+HistGradientBoosting,0.06,0.6126028968096869
+HistGradientBoosting,0.08,0.6305659501638964
+HistGradientBoosting,0.1,0.6417819209902957
+HistGradientBoosting,0.12,0.6454458112173379
+HistGradientBoosting,0.14,0.6473562388167506
+HistGradientBoosting,0.16,0.6453935553823739
+HistGradientBoosting,0.18,0.640483963894757
+HistGradientBoosting,0.2,0.6338621493232948
+HistGradientBoosting,0.22,0.6224921774341984
+HistGradientBoosting,0.24,0.6108729173718455
+HistGradientBoosting,0.26,0.5933181940648936
+HistGradientBoosting,0.28,0.5765562002163438
+HistGradientBoosting,0.3,0.5640811289584204
+HistGradientBoosting,0.32,0.5541450046346673
+HistGradientBoosting,0.34,0.5435623803511058
+HistGradientBoosting,0.36,0.5253761532269716
+HistGradientBoosting,0.38,0.5113174089913425
+HistGradientBoosting,0.4,0.48427152317880795
+HistGradientBoosting,0.42,0.458281202812891
+HistGradientBoosting,0.44,0.44225910437358423
+HistGradientBoosting,0.46,0.42385546935097473
+HistGradientBoosting,0.48,0.40718562874251496
+HistGradientBoosting,0.5,0.3824597587768462
+HistGradientBoosting,0.52,0.35615412544249797
+HistGradientBoosting,0.54,0.3311326593769342
+HistGradientBoosting,0.56,0.31336597081101053
+HistGradientBoosting,0.58,0.2960312296681848
+HistGradientBoosting,0.6,0.28259600793743433
+HistGradientBoosting,0.62,0.27459659476802734
+HistGradientBoosting,0.64,0.25092059295628366
+HistGradientBoosting,0.66,0.2393818733409177
+HistGradientBoosting,0.68,0.21866723928136855
+HistGradientBoosting,0.7,0.19781195268827523
+HistGradientBoosting,0.72,0.1824711951019621
+HistGradientBoosting,0.74,0.1704407993419461
+HistGradientBoosting,0.76,0.14810397702380373
+HistGradientBoosting,0.78,0.1374343952154278
+HistGradientBoosting,0.8,0.11669284382055561
