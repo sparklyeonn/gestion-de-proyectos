@@ -1,0 +1,6 @@
+ID_Caso,Grade,AttendanceRate,StudyHours,InternetAccess,Extracurricular,PartTimeJob,ParentSupport,FreeTime,GoOut
+DEMO_1,10,0.73,0.3,0,0,1,0,4,4
+DEMO_2,11,0.82,0.6,1,0,1,0,3,3
+DEMO_3,12,0.9,1.0,1,1,0,1,3,2
+DEMO_4,10,0.97,1.7,1,1,0,1,2,1
+DEMO_5,9,0.78,0.4,1,0,0,0,4,4

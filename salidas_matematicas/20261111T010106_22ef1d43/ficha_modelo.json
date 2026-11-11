@@ -1,0 +1,82 @@
+{
+  "nombre": "Clasificación de bajo puntaje en matemáticas",
+  "version": "matematicas_v3_20261111T010106_22ef1d43",
+  "datos_sinteticos": true,
+  "dataset": "neuralsorcerer/student-performance/versions/1",
+  "corte_provisional": 60.0,
+  "features": [
+    "Grade",
+    "AttendanceRate",
+    "StudyHours",
+    "InternetAccess",
+    "Extracurricular",
+    "PartTimeJob",
+    "ParentSupport",
+    "FreeTime",
+    "GoOut"
+  ],
+  "atributos_solo_auditoria": [
+    "Gender",
+    "Race",
+    "SES_Quartile"
+  ],
+  "modelo": "Boosting hojas=31 mínimo=100 L2=0",
+  "umbral_validacion": 0.1750991200629475,
+  "recall_minimo_validacion": 0.75,
+  "criterio": "Mayor precisión con recall mínimo",
+  "muestreo": {
+    "train": 300000,
+    "validation": 150000,
+    "test": 150000
+  },
+  "semilla": 42,
+  "calidad_archivos": {
+    "train": {
+      "filas_originales": 8000774,
+      "filas_muestra": 300000,
+      "nulos_originales": 0,
+      "hashes_repetidos": 0,
+      "sha256": "5eb46ab71ca8bf9d80962a6ffc9fe20593fd301a6eaef8b4cf9aa64663648fb3"
+    },
+    "validation": {
+      "filas_originales": 999229,
+      "filas_muestra": 150000,
+      "nulos_originales": 0,
+      "hashes_repetidos": 0,
+      "sha256": "afee5b88a598ad7e3fc22e7023d2c0e9ace252c25ffd1fcca854293afab8e647"
+    },
+    "test": {
+      "filas_originales": 999997,
+      "filas_muestra": 150000,
+      "nulos_originales": 0,
+      "hashes_repetidos": 0,
+      "sha256": "076e1f68d4a39e95a81ca43f05255dda3e73fc791d2af6e169f32825aa08fe95"
+    }
+  },
+  "versiones_software": {
+    "python": "3.12.10",
+    "numpy": "2.1.0",
+    "pandas": "2.3.3",
+    "sklearn": "1.9.0",
+    "joblib": "1.5.3"
+  },
+  "metricas_test": {
+    "Umbral": 0.1750991200629475,
+    "Accuracy": 0.9101933333333333,
+    "Precision": 0.40244969378827644,
+    "Recall": 0.743209128546905,
+    "F1": 0.5221524600049662,
+    "F2": 0.6355785837651122,
+    "ROC_AUC": 0.9390288756749661,
+    "AP": 0.5715153151332237
+  },
+  "limitaciones": [
+    "Corte no aprobado por UTP",
+    "Datos sin secuencia temporal ni ID de estudiante",
+    "Test explorado previamente",
+    "Métricas calculadas en muestras",
+    "Probabilidades sin calibración adicional",
+    "No acredita desempeño ni equidad en un colegio real",
+    "Seguridad y programación de producción pendientes"
+  ]
+}

@@ -1,0 +1,8 @@
+﻿Tarea,Evidencia,Responsable,Estado,Fin_planificado,Fin_real,Enlace_Trello,Revision
+Preparar datos,calidad_y_procedencia.csv,POR COMPLETAR,POR VERIFICAR,,,,
+Seleccionar modelo,metricas_validacion.csv,POR COMPLETAR,POR VERIFICAR,,,,
+Evaluar modelo,metricas_test.csv,POR COMPLETAR,POR VERIFICAR,,,,
+Auditar subgrupos,auditoria_equidad_restringida.csv,POR COMPLETAR,POR VERIFICAR,,,,
+Probar inferencia,lotes/historial_ejecuciones.csv,POR COMPLETAR,POR VERIFICAR,,,,
+Construir dashboard,PBIX y captura pendientes,POR COMPLETAR,POR VERIFICAR,,,,
+Consolidar informe,Informe EP5 pendiente,POR COMPLETAR,POR VERIFICAR,,,,

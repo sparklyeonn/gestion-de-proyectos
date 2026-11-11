@@ -1,0 +1,6 @@
+﻿ID_Caso,Grade,Probabilidad_bajo_rendimiento,Alerta,Nivel,Fecha_UTC,ID_Lote,Version_modelo,Modelo,Umbral,Corte_Math,Origen
+DEMO_1,10,0.9563757551213787,1,Priorizar revisión,2026-11-11T01:11:45.814970+00:00,20261111T011145_8784bc08,matematicas_v3_20261111T010106_22ef1d43,Boosting hojas=31 mínimo=100 L2=0,0.1750991200629475,60.0,demostracion_sintetica
+DEMO_2,11,0.4162724599110856,1,Priorizar revisión,2026-11-11T01:11:45.814970+00:00,20261111T011145_8784bc08,matematicas_v3_20261111T010106_22ef1d43,Boosting hojas=31 mínimo=100 L2=0,0.1750991200629475,60.0,demostracion_sintetica
+DEMO_3,12,0.0011823948958372184,0,Seguimiento habitual,2026-11-11T01:11:45.814970+00:00,20261111T011145_8784bc08,matematicas_v3_20261111T010106_22ef1d43,Boosting hojas=31 mínimo=100 L2=0,0.1750991200629475,60.0,demostracion_sintetica
+DEMO_4,10,2.547620080639432e-06,0,Seguimiento habitual,2026-11-11T01:11:45.814970+00:00,20261111T011145_8784bc08,matematicas_v3_20261111T010106_22ef1d43,Boosting hojas=31 mínimo=100 L2=0,0.1750991200629475,60.0,demostracion_sintetica
+DEMO_5,9,0.8665115359735112,1,Priorizar revisión,2026-11-11T01:11:45.814970+00:00,20261111T011145_8784bc08,matematicas_v3_20261111T010106_22ef1d43,Boosting hojas=31 mínimo=100 L2=0,0.1750991200629475,60.0,demostracion_sintetica
